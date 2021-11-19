@@ -1,0 +1,5 @@
+sceneSetups:
+- path: Assets/GG FPS Integration Tool/Demos/Zombie Room Demo.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0
