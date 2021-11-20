@@ -148,7 +148,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2871802822201794878}
-  - component: {fileID: 7272230751330475249}
+  - component: {fileID: 2871802822201638160}
   - component: {fileID: 2688148340036114182}
   - component: {fileID: 2871802822206245086}
   - component: {fileID: 2871802822198369918}
@@ -176,7 +176,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!114 &7272230751330475249
+--- !u!114 &2871802822201638160
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -185,31 +185,33 @@ MonoBehaviour:
   m_GameObject: {fileID: 2871802822201638174}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 54276859056f7974d93c3ab7001d4322, type: 3}
+  m_Script: {fileID: 11500000, guid: 830ec1e5ea7bb4527997ff730c330a94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  characterCamera: {fileID: 2871802822202359614}
-  movementXName: Horizontal
-  movementYName: Vertical
-  jumpKey: 32
-  runKey: 304
-  mouseXName: Mouse X
-  mouseYName: Mouse Y
-  walkSpeed: 5
-  runSpeed: 10
-  mouseXSensitivity: 1
-  mouseYSensitivity: 1
-  jumpForce: 10
-  aeroMobilityMultiplier: 1
-  gravityMultiplier: 2
-  walkCycleRate: 2
-  isCameraBobbingEnabled: 1
-  cameraBobIntensityMoving: 0.05
-  cameraBobIntensityLanding: 0.2
-  firstFootstepAudio: {fileID: 8300000, guid: bda836d8515084b5e9b01d14a94ccb70, type: 3}
-  secondFootstepAudio: {fileID: 8300000, guid: c5e4847098f1c4a2c9cafc171d6ce742, type: 3}
-  jumpAudio: {fileID: 8300000, guid: 8d372ba2c1a7148d5b4964cae0c22b6f, type: 3}
-  landAudio: {fileID: 8300000, guid: eb144c9f1052346e58c2762d752cb73d, type: 3}
+  m_CharacterCamera: {fileID: 2871802822202359614}
+  m_MovementXName: Horizontal
+  m_MovementYName: Vertical
+  m_JumpKey: 32
+  m_RunKey: 304
+  m_MouseXName: Mouse X
+  m_MouseYName: Mouse Y
+  m_WalkSpeed: 5
+  m_RunSpeed: 10
+  m_MouseXSensitivity: 1
+  m_MouseYSensitivity: 1
+  m_JumpForce: 10
+  m_AeroMobilityMultiplier: 1
+  m_GravityMultiplier: 2
+  m_WalkCycleRate: 2
+  m_IsCameraBobbingEnabled: 1
+  m_CameraBobIntensityMoving: 0.05
+  m_CameraBobIntensityLanding: 0.2
+  m_FirstFootstepAudio: {fileID: 8300000, guid: bda836d8515084b5e9b01d14a94ccb70,
+    type: 3}
+  m_SecondFootstepAudio: {fileID: 8300000, guid: c5e4847098f1c4a2c9cafc171d6ce742,
+    type: 3}
+  m_JumpAudio: {fileID: 8300000, guid: 8d372ba2c1a7148d5b4964cae0c22b6f, type: 3}
+  m_LandAudio: {fileID: 8300000, guid: eb144c9f1052346e58c2762d752cb73d, type: 3}
 --- !u!114 &2688148340036114182
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -407,7 +409,8 @@ MonoBehaviour:
   m_WeaponCollection: {fileID: 11400000, guid: 547231c34a9504a8aa95bfb05f26dcd7, type: 2}
   m_CameraRaySpawn: {fileID: 2871802822201794876}
   m_FPSPlayer: {fileID: 2871802822201794878}
-  _BloodSplatterImpact: {fileID: 1876966866678746, guid: efa468762f58e534c8a5422e0d31a1a0, type: 3}
+  _BloodSplatterImpact: {fileID: 1876966866678746, guid: efa468762f58e534c8a5422e0d31a1a0,
+    type: 3}
   m_inputFire: 323
   m_inputAutoFire: 323
   m_inputReload: 114
